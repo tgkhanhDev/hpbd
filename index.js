@@ -53,12 +53,10 @@ document.querySelector("#mess").addEventListener("change", function () {
     });
   } else {
     document.querySelector(".content").classList.remove("actived");
-    document.getElementById("mainContent").classList.toggle("hidden");
-
     document
       .querySelector(".img1")
       .setAttribute("style", "opacity: 0; transition: .5s");
-    document.querySelector(".mainContent").innerHTML = "";
+    // document.querySelector(".mainContent").innerHTML = "";
   }
 });
 
