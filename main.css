@@ -435,18 +435,17 @@ body {
 
 /* her pic */
 .herpicture {
-  width: 100vw;
-  height: 100vh;
-  rotate: -30deg;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .herpicture img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  rotate: -30deg;
   object-fit: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   /* opacity: 0;
